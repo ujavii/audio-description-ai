@@ -1,0 +1,18 @@
+# Instalación con soporte GPU (CUDA).
+# Uso:
+#   pip install -r requirements.txt
+#   pip install -r requirements-gpu.txt
+#
+# Este archivo sobreescribe torch con la build CUDA correspondiente.
+# Ajusta la versión de CUDA según el driver instalado en el equipo:
+#   cu118 → CUDA 11.8
+#   cu121 → CUDA 12.1
+#   cu124 → CUDA 12.4
+# Consulta versiones disponibles en: https://download.pytorch.org/whl/torch/
+#
+# Para saber qué versión de CUDA tiene el equipo: nvidia-smi
+
+--index-url https://download.pytorch.org/whl/cu121
+torch==2.5.1+cu121
+torchaudio==2.5.1+cu121
+torchvision==0.20.1+cu121

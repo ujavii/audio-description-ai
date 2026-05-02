@@ -1,0 +1,33 @@
+{
+  "_instrucciones": [
+    "Copia este archivo como glosario_nombres.json y adapta su contenido al contexto de tu implementación.",
+    "Cada clave es la forma canónica (correcta) del nombre.",
+    "El valor es una lista de variantes que deben mapearse a esa forma canónica.",
+    "Las variantes se comparan de forma insensible a mayúsculas y acentos.",
+    "El archivo glosario_nombres.json real no se incluye en el repositorio (ver .gitignore)."
+  ],
+  "Ana Rodríguez Solano": [
+    "Ana Rodriguez",
+    "Ana Rodríguez",
+    "A. Rodríguez",
+    "Ana Rodriguez Solano"
+  ],
+  "Carlos Mora Jiménez": [
+    "Carlos Mora",
+    "C. Mora",
+    "Carlos Mora Jimenez"
+  ],
+  "Departamento de Comunicación": [
+    "Depto. Comunicación",
+    "Dep. de Comunicación",
+    "depto comunicacion",
+    "Departamento Comunicación"
+  ],
+  "Fernando Chironi": [
+    "fernando giron",
+    "fernando chiron",
+    "fernando chiloni",
+    "fernando gironi",
+    "fernando chitoni"
+  ]
+}

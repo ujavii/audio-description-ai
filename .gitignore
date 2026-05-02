@@ -1,0 +1,41 @@
+# ── Entorno y secretos ──────────────────────
+.env
+*.env.local
+
+# ── Entornos virtuales de Python ─────────────
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ── Datos de trabajo (pueden contener información sensible) ──
+audios/
+outputs/
+transcripciones/
+tmp/
+logs/
+
+# ── Glosario de entidades (contextual, no se incluye en el repo) ──
+data/glosario_nombres.json
+
+# ── Modelos de Whisper (archivos grandes) ────
+models/
+
+# ── Claude Code (archivos internos del asistente) ────
+.claude/
+CLAUDE.md
+DECISIONS.md
+
+# ── IDE y sistema operativo ──────────────────
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Distribución Python ───────────────────────
+build/
+dist/
+*.egg-info/

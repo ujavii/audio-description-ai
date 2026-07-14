@@ -35,6 +35,10 @@ DECISIONS.md
 Thumbs.db
 desktop.ini
 
+# ── Módulos fuera de alcance de esta versión ──
+src/analisis_periodistico.py
+src/procesar_periodistico.py
+
 # ── Distribución Python ───────────────────────
 build/
 dist/
